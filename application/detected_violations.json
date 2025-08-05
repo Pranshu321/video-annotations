@@ -1,0 +1,602 @@
+[
+  {
+    "timestamp": "2025-08-05T22:56:16.121640",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:16.298207",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:16.482346",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:16.482346",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:16.832897",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:16.832897",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:16.832897",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.015812",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.015812",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.190652",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.190652",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.365321",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.539989",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.714673",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.881339",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:17.881339",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:18.055987",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:18.230653",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:18.755027",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.096363",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.445694",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.612361",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.787173",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.787173",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.961846",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:19.961846",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:20.136743",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:20.311412",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:20.311412",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:20.311412",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:20.486281",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:20.835660",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:21.002326",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:21.351618",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:21.526290",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:21.724986",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:21.899619",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:22.066285",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:22.066285",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:22.241055",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:22.582391",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:22.923967",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.098636",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.265303",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.265303",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.265303",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.440144",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.440144",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.440144",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.614813",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.614813",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.781480",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.781480",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.781480",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.956343",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:23.956343",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.131049",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.305909",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.647244",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.822080",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.822080",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.996751",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.996751",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:24.996751",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.163417",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.163417",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.163417",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.338118",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.338118",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.504785",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.679449",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.679449",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:25.854083",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:26.020750",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:26.362118",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:26.536750",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:26.878290",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:26.878290",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.052961",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.227769",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.227769",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.569141",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.743935",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.910602",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:27.910602",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.085273",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.260052",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.426719",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.601426",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.601426",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.601426",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.768092",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.768092",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:28.942885",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:29.284504",
+    "event_type": "mobile_usage_while_driving",
+    "confidence": 0.75,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:29.459327",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:29.459327",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:29.634033",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:29.975331",
+    "event_type": "no_helmet",
+    "confidence": 0.85,
+    "location": "Zone A"
+  },
+  {
+    "timestamp": "2025-08-05T22:56:30.150037",
+    "event_type": "no_seatbelt",
+    "confidence": 0.8,
+    "location": "Zone A"
+  }
+]
