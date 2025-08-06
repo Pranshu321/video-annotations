@@ -26,6 +26,17 @@ This project is an **AI-powered assistant** that summarizes and analyzes surveil
 
 ---
 
+## App Interface
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5a102cef-e032-4c61-9869-0622cf07542c" />
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ac0cb9b4-c59a-4060-8923-0690649fd9e1" />
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c8088387-032a-4ea5-9005-332c8071046a" />
+
+
+---
+
 ## 🛠️ Local Setup Instructions
 
 ### 1. Clone the Repository
@@ -143,6 +154,9 @@ Once loaded, the app will:
 "What happened at the main entrance?"
 
 "How many events were detected in total?"
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/edef5a43-279f-4762-8624-72c4c7af750e" />
+
 
 "Which event had the highest confidence?"
 
