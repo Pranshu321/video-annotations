@@ -1,0 +1,21 @@
+# --- Streamlit UI ---
+streamlit
+
+# --- LangChain Components ---
+langchain
+langchain-openai
+langchain-community
+
+# --- Vector DB + Embeddings ---
+faiss-cpu
+huggingface-hub
+sentence-transformers  # for HuggingFaceEmbeddings
+
+# --- CV and video handling ---
+opencv-python
+numpy
+torch
+torchvision
+
+# --- Utility packages ---
+typing-extensions
