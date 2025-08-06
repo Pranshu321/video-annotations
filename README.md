@@ -2,6 +2,12 @@
 
 This project is an **AI-powered assistant** that summarizes and analyzes surveillance events detected from video or JSON input. Built using **Streamlit**, **LangChain**, and **Groq API**, it supports interactive chat with memory, event summarization, and file uploads.
 
+### Demo Video
+
+[![asciicast](https://github.com/user-attachments/assets/5a102cef-e032-4c61-9869-0622cf07542c)](https://github.com/user-attachments/assets/b94c11fc-5b65-43ed-b3f6-3fb6965e7ced)
+
+
+
 ---
 
 ## 🚀 Features
