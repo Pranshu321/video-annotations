@@ -3,8 +3,8 @@ import os
 import time
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
-
-os.environ["GROQ_API_KEY"] = "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"
+import dotenv
+dotenv.load_dotenv()
 
 def summarize_events(events, retries=5, delay=5):
     """
