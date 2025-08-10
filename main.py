@@ -1,7 +1,7 @@
 # Om
 # swatik
 from model import Models
-from inference import process_chunk_optimized
+from inference import process_chunk_multiprocess
 from summerizer import summarize_events
 from qa_agent import create_qa_agent
 from multiprocess_video import multi_process_frame_extraction
@@ -46,7 +46,15 @@ async def infer(video: UploadFile = File(...), prompt: str = Form(...)):
         # Step 2: Process chunks → text events
         print("📝 Processing chunks...")
         # events = []
-        events = process_chunk_optimized(chunk_dir="./extracted_frames", models=models)
+        events = process_chunk_multiprocess(
+        chunk_dir="./extracted_frames", models=models,
+        frames_per_clip=16,
+        stride=8,
+        batch_size=4,
+        max_workers=4,
+        use_threading=True
+        )
+        # events = process_chunk_optimized(chunk_dir="./extracted_frames", models=models)
 
         if not events:
             return PlainTextResponse("No events detected in the video.", status_code=200)
@@ -54,6 +62,8 @@ async def infer(video: UploadFile = File(...), prompt: str = Form(...)):
         # Step 3: Summarize events
         print("📄 Summarizing events...")
         summary = summarize_events(events)
+
+        print("Summary=" , summary)
 
         # Step 4: Create QA agent and answer prompt
         print("🤖 Running QA agent...")
