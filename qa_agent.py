@@ -27,12 +27,18 @@ def create_qa_agent(summary_text):
         temperature=0
     )
 
-    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+    # memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
+    # qa_chain = ConversationalRetrievalChain.from_llm(
+    #     llm=llm,
+    #     retriever=retriever,
+    #     memory=memory
+    # )
     qa_chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
         retriever=retriever,
-        memory=memory
+        memory=ConversationBufferMemory(memory_key="chat_history", return_messages=True),
+        verbose=False
     )
 
     return qa_chain

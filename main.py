@@ -54,6 +54,7 @@ async def infer(video: UploadFile = File(...), prompt: str = Form(...)):
         max_workers=4,
         use_threading=True
         )
+
         # events = process_chunk_optimized(chunk_dir="./extracted_frames", models=models)
 
         if not events:
@@ -68,7 +69,9 @@ async def infer(video: UploadFile = File(...), prompt: str = Form(...)):
         # Step 4: Create QA agent and answer prompt
         print("🤖 Running QA agent...")
         qa_agent = create_qa_agent(summary)
+        print("Prompt=" , prompt)
         answer = qa_agent({"question": prompt})
+        print("Answer=" , answer)
 
         return PlainTextResponse(answer["answer"], status_code=200)
 

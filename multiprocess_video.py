@@ -80,6 +80,12 @@ def multi_process_frame_extraction(file_name, output_dir="extracted_frames", num
     if not os.path.exists(file_name):
         raise FileNotFoundError(f"Video file not found: {file_name}")
     
+    # if extracted_frames folder already exit delete that
+    if os.path.exists(output_dir):
+        print(f"Removing existing output directory: {output_dir}")
+        for f in os.listdir(output_dir):
+            os.remove(os.path.join(output_dir, f))
+        os.rmdir(output_dir)
     try:
         width, height, frame_count, fps = get_video_frame_details(file_name)
         print(f"Video properties:")
