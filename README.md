@@ -71,17 +71,18 @@ Plain-text answer → Client
 
 ## File Structure Overview
 
+
 ```text
 .
 ├── .gitignore
-├── fi.py
-├── inference.py
 ├── main.py
-├── model.py
 ├── multiprocess_video.py
-├── qa_agent.py
 ├── requirements.txt
-└── summerizer.py
+└── utils
+    ├── inference.py
+    ├── Model.py
+    ├── Summrizer.py
+    └── qa_agent.py
 ```
 
 ## Prerequisites
