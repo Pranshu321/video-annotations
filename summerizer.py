@@ -10,33 +10,28 @@ def summarize_events(events, retries=5, delay=5):
     """
     Summarize extracted video events using Groq API with retry logic.
     """
-    template = """
+    PROMPT_TEMPLATE = """
     You are a detailed video summarization assistant.
-You are given a list of detected events from a video, each containing action labels, captions, and any available metadata.
-Write a concise but information-rich paragraph summarizing the entire video.
-Your summary should integrate all key details from every frame or event, including:
+    You are given a list of detected events from a video, each containing action labels, captions, and any available metadata.
+    Write a concise but information-rich paragraph summarizing the entire video.
+    Your summary should integrate all key details from every frame or event, including:
 
-Objects and entities: type of vehicles, people, animals, objects.
+    Objects and entities: type of vehicles, people, animals, objects.
+    Colors: describe the main visible colors of vehicles, clothing, or objects.
+    Directions and movement: direction of travel (e.g., northbound, left-to-right), speed, acceleration.
+    Actions and interactions: what each object is doing (e.g., overtaking, turning, braking, stopping, interacting).
+    Scene context: location type (e.g., highway, city street, parking lot), weather, lighting, background elements.
+    Special events: violations, unusual behavior, notable incidents.
+    Temporal flow: describe the sequence of events in the order they occur.
 
-Colors: describe the main visible colors of vehicles, clothing, or objects.
-
-Directions and movement: direction of travel (e.g., northbound, left-to-right), speed, acceleration.
-
-Actions and interactions: what each object is doing (e.g., overtaking, turning, braking, stopping, interacting).
-
-Scene context: location type (e.g., highway, city street, parking lot), weather, lighting, background elements.
-
-Special events: violations, unusual behavior, notable incidents.
-
-Temporal flow: describe the sequence of events in the order they occur.
-Keep the summary concise (5–7 sentences) but ensure no important visual or contextual detail is omitted.
+    Keep the summary concise (5–7 sentences) but ensure no important visual or contextual detail is omitted.
 
     Events:
     {events}
 
     Summary:
     """
-    prompt = PromptTemplate(input_variables=["events"], template=template)
+    prompt = PromptTemplate(input_variables=["events"], template=PROMPT_TEMPLATE)
 
     event_text = "\n".join(
         [f"{e['label']} ({e['score']:.2f}): {e['caption']}" for e in events]

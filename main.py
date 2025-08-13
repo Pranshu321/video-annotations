@@ -1,9 +1,9 @@
 # Om
 # swatik
-from utils.model import Models
-from utils.inference import process_chunk_multiprocess
-from utils.summerizer import summarize_events
-from utils.qa_agent import create_qa_agent
+from model import Models
+from inference import process_chunk_multiprocess
+from summerizer import summarize_events
+from qa_agent import create_qa_agent
 from multiprocess_video import multi_process_frame_extraction
 import os
 import tempfile
