@@ -78,11 +78,12 @@ Plain-text answer → Client
 ├── main.py
 ├── multiprocess_video.py
 ├── requirements.txt
+├── inference.py
+├── Model.py
+├── Summrizer.py
+|── qa_agent.py
 └── utils
-    ├── inference.py
-    ├── Model.py
-    ├── Summrizer.py
-    └── qa_agent.py
+    ├── Agent_Interface.py
 ```
 
 ## Prerequisites
