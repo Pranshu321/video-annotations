@@ -1,5 +1,9 @@
 # SurveilSense
 
+### 🎥 Video Question Answering API
+
+A FastAPI-based system that processes videos, extracts visual events, summarizes them using an LLM, and answers natural language questions (including multiple-choice) about the video content.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Pranshu321/SurveilSense/main.yml?branch=main)]()
 
@@ -20,16 +24,12 @@
 - [Performance Benchmarks](#performance-benchmarks)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Team Members](#team-members)
 
 <!-- TODO: Add screenshots if applicable -->
 
 ## Features
 
-🎥 Video Question Answering API
-A FastAPI-based system that processes videos, extracts visual events, summarizes them using an LLM, and answers natural language questions (including multiple-choice) about the video content.
-
-📌 Features
 - Upload a video and ask any question about its content
 - Multiprocessing-based fast frame extraction (OpenCV)
 - Transformer models for action recognition and image captioning
@@ -160,5 +160,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 ## Team Members
 
 Pranshu Jain - [SurveilSense Project](https://github.com/Pranshu321/SurveilSense) - pranshujain0111@gmail.com
+
 Riya Dubey - riyadubey.seya25@gmail.com
-Aviansh Kuamr - avinash@gmail.com
+
+Avinash Kuamr - avinash@gmail.com
