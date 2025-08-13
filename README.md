@@ -157,6 +157,8 @@ Please make sure to update tests as appropriate.
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
-## Contact
+## Team Members
 
-Your Name - [SurveilSense Project](https://github.com/Pranshu321/SurveilSense) - email@example.com
+Pranshu Jain - [SurveilSense Project](https://github.com/Pranshu321/SurveilSense) - pranshujain0111@gmail.com
+Riya Dubey - riyadubey.seya25@gmail.com
+Aviansh Kuamr - avinash@gmail.com
