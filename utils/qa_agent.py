@@ -21,19 +21,13 @@ def create_qa_agent(summary_text):
 
     # Groq LLM
     llm = ChatOpenAI(
-        api_key=os.getenv("GROQ_API_KEY"),
+        api_key=os.getenv("GROQ_API_KEY"), # type: ignore
         base_url="https://api.groq.com/openai/v1",
         model="llama3-70b-8192",
         temperature=0
     )
 
-    # memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-
-    # qa_chain = ConversationalRetrievalChain.from_llm(
-    #     llm=llm,
-    #     retriever=retriever,
-    #     memory=memory
-    # )
+    # Create QA chain
     qa_chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
         retriever=retriever,

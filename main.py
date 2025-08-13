@@ -1,9 +1,9 @@
 # Om
 # swatik
-from model import Models
-from inference import process_chunk_multiprocess
-from summerizer import summarize_events
-from qa_agent import create_qa_agent
+from utils.model import Models
+from utils.inference import process_chunk_multiprocess
+from utils.summerizer import summarize_events
+from utils.qa_agent import create_qa_agent
 from multiprocess_video import multi_process_frame_extraction
 import os
 import tempfile
@@ -82,7 +82,7 @@ async def infer(video: UploadFile = File(...), prompt: str = Form(...)):
     finally:
         # Clean up temp file
         try:
-            os.remove(video_path)
+            os.remove(video_path) # type: ignore
         except Exception:
             pass
 

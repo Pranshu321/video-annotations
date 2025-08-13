@@ -139,15 +139,3 @@ def multi_process_frame_extraction(file_name, output_dir="extracted_frames", num
     print(f"  Frames extracted: {extracted_frames}/{frame_count}")
     print(f"  Processing speed: {extracted_frames/total_time:.2f} FPS")
     print(f"  Output directory: {output_dir}")
-
-# Main execution
-# if __name__ == "__main__":
-#     # Configuration
-#     file_name = "Project/Surveil/test.mp4"
-#     output_directory = "extracted_frames"
-    
-#     try:
-#         multi_process_frame_extraction(file_name, output_directory)
-#     except Exception as e:
-#         print(f"Error: {e}")
-#         print("Please check if the video file exists and is readable.")

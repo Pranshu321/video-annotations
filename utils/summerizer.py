@@ -47,7 +47,7 @@ Keep the summary concise (5–7 sentences) but ensure no important visual or con
         base_url="https://api.groq.com/openai/v1",
         model="llama3-70b-8192",  # You can change to llama3-70b if you have access
         temperature=0.3,
-        max_tokens=512
+        max_tokens=512 # type: ignore
     )
 
     chain = prompt | llm

@@ -1,18 +1,11 @@
-# from model import Models
-# from inference import process_chunk_optimized
-
-# models = Models()
-# print(models.caption_model_name)
-# events = process_chunk_optimized(models, "./extracted_frames")
-# print(events)
 from model import Models
-from inference import process_chunk_optimized
+from inference import process_chunk_multiprocess
 from summerizer import summarize_events
 from qa_agent import create_qa_agent
 
 # Step 1: Load models and process video frames
 models = Models()
-events = process_chunk_optimized(models, "./extracted_frames")
+events = process_chunk_multiprocess(models, "./extracted_frames")
 print("Detected events:", events)
 
 # Step 2: Summarize video
