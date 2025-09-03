@@ -164,5 +164,3 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 Pranshu Jain - [SurveilSense Project](https://github.com/Pranshu321/SurveilSense) - pranshujain0111@gmail.com
 
 Riya Dubey - riyadubey.seya25@gmail.com
-
-Avinash Kuamr - avinash@gmail.com
